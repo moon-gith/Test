@@ -53,12 +53,12 @@ body {
 }
 
 
-.jumbotron {
+.col-xs-12 {
   background-color: darkgray;
   padding-top: 15px;
 }
 
-.jumbotron #chicken{
+.col-xs-12 #chicken{
   font-weight: bold;
   padding-bottom: 8px;
   font-size: 1.2em;
