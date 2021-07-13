@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: black;
   background-color:whitesmoke;
-  font-family: 'Oxygen', sans-serif;
+  font-family: monospace;, sans-serif;
 }
 
 /** HEADER **/
@@ -26,11 +26,11 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #9799ba;
+  color: black;
   font-size: 1.5em;
   text-transform: uppercase;
-
-  text-shadow: 1px 1px 1px #222;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px grey;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1;
@@ -48,13 +48,20 @@ body {
 
 /** MAIN CONTENT **/
 #our-menu {
-  font-size: 1.3em;
+  font-size: 1.5em;
   padding-bottom: 20px;
 }
 
 
 .jumbotron {
   background-color: darkgray;
+  padding-top: 15px;
+}
+
+.jumbotron #chicken{
+  font-weight: bold;
+  padding-bottom: 8px;
+  font-size: 1.2em;
 }
 /** END OF MAIN CONTENT **/
 
@@ -97,7 +104,7 @@ body {
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
   }
 
